@@ -1,0 +1,158 @@
+header ul.nav_header_header{
+    float: right;
+    list-style: none;
+}
+
+header ul.nav_header_header li{
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease ;
+}
+
+header ul.nav_header_header li:hover{
+    opacity: 0.5;
+}
+
+header .shopcart_button_header{
+    margin-top: 2px;
+    float:right;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .shopcart_button_header:hover,
+header .shopcart_button_header.active{
+    color: #dc3d3d;
+    transform: scale(1.4);
+}
+
+header .cartopen_div_header{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 450px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0px -2px 17px 2px rgba(212, 155, 45, 0.06);
+    -moz-box-shadow: 0px -2px 17px 2px rgba(212, 155, 45, 0.06);
+    box-shadow: 0px -2px 17px 2px rgba(212, 155, 45, 0.06);
+    z-index: 1000;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 8px 8px 8px 8px ;
+}
+
+header{
+    position: relative;
+}
+
+header .cartopen_div_header .item_div_order{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+header .cartopen_div_header .item_div_order img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+header .cartopen_div_header .item_div_order h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+header .cartopen_div_header .item_div_order p{
+    color: #797979;
+    font-weight: 600;
+}
+
+header .cartopen_div_header .empty_const_header h2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+header{
+    font-weight: 600;
+    font-size: 19px;
+}
+
+header .presentation_header_header{
+    margin: 50px 0;
+    background: url(https://mebel-moskva.ru/upload/iblock/695/695f53ed0b5bb6f04703f71b578596c0.jpg) no-repeat;
+    width:100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: #c7c0c0;
+}
+
+header .presentation_header_header::after{
+    content: "Лучшие товары для вашего дома";
+    position: absolute;
+    top: 150px;
+    left: 35px;
+    width: 300px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+header .presentation_header_header::before{
+    content: "по низким ценам";
+    position: absolute;
+    top: 280px;
+    left: 35px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.summ_header_header{
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.maini{
+    color: #666;
+    text-decoration: none;
+}
+
+.loli {
+    position: relative;
+    width: 25vw;
+    margin: 0 auto;
+    margin-left: 10vw;
+    margin-top: -3vh;
+  }
+  input, button {
+    border: none;
+    outline: none;
+    border-radius: 35px;
+  }
+  input {
+    width: 100%;
+    height: 35px;
+    background: #f5f5f5;
+    padding-left: 15px;
+  }
+  button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    background: #999;
+    cursor: pointer;
+  }
+  button:before {
+    content: "\f178";
+    color: #F9F0DA;
+    font-size: 20px;
+    font-weight: bold;
+  }

@@ -1,0 +1,13 @@
+.delete_order_order{
+    color: #333;
+    float: right;
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+.delete_order_order:hover{
+    color: #dc3d3d;
+    transform: scale(1.2);
+}

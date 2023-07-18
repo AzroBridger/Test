@@ -1,0 +1,89 @@
+header ul.nav_header_header{
+    float: right;
+    list-style: none;
+}
+
+header ul.nav_header_header li{
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease ;
+}
+
+header ul.nav_header_header li:hover{
+    opacity: 0.5;
+}
+
+header .shopcart_button_header{
+    margin-top: 2px;
+    float:right;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .shopcart_button_header:hover,
+header .shopcart_button_header.active{
+    color: #dc3d3d;
+    transform: scale(1.4);
+}
+
+header .cartopen_div_header{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 450px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0px -2px 17px 2px rgba(212, 155, 45, 0.06);
+    -moz-box-shadow: 0px -2px 17px 2px rgba(212, 155, 45, 0.06);
+    box-shadow: 0px -2px 17px 2px rgba(212, 155, 45, 0.06);
+    z-index: 1000;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 8px 8px 8px 8px ;
+}
+
+header{
+    position: relative;
+}
+
+header .cartopen_div_header .item_div_order{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+header .cartopen_div_header .item_div_order img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+header .cartopen_div_header .item_div_order h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+header .cartopen_div_header .item_div_order p{
+    color: #797979;
+    font-weight: 600;
+}
+
+header .cartopen_div_header .empty_const_header h2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+header{
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.linki{
+    color: black;
+    text-decoration: none;
+}
+
+.maini{
+    color: #666;
+    text-decoration: none;
+}
+

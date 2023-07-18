@@ -1,0 +1,19 @@
+.categories_div_categories div{
+    display: inline;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: all 500ms ease;
+    border: 1px solid transparent;
+}
+
+.categories_div_categories{
+    margin-bottom: 30px;     
+}
+
+.categories_div_categories div:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #02ffab;;
+}
